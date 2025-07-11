@@ -1,0 +1,22 @@
+# Veri Analizi ve Manipülasyon
+pandas
+numpy
+
+# Veri Görselleştirme
+matplotlib
+seaborn
+
+# Makine Öğrenmesi
+scikit-learn
+xgboost
+lightgbm
+
+# Notebook Ortamı
+jupyter
+
+# API için
+fastapi
+uvicorn[standard]
+
+# Model Kaydetme/Yükleme
+joblib
