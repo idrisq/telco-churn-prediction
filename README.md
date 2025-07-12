@@ -26,7 +26,7 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 ```bash
 # 1. Proje reposunu klonlayın
-git clone [https://github.com/senin-kullanici-adin/telco-churn-prediction.git](https://github.com/senin-kullanici-adin/telco-churn-prediction.git)
+git clone [https://github.com/idrisq/telco-churn-prediction.git](https://github.com/senin-kullanici-adin/telco-churn-prediction.git)
 cd telco-churn-prediction
 
 # 2. Python sanal ortamı oluşturun ve aktive edin
