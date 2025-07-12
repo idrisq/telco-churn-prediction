@@ -83,15 +83,6 @@ Farklı modeller eğitilmiş ve iş problemine en uygun metrik olan **Recall (Du
 | **XGBoost (Gelişmiş)** | **0.8034** | **0.6037** | **0.7844** | **0.6822** | **0.8606** |
 
 
-## Görselleştirmeler
-
-#### Modelin En Önemli Gördüğü Özellikler
-*Buraya Jupyter Notebook'ta oluşturduğunuz Özellik Önemi grafiğini ekleyin.*
-![Feature Importance Grafiği](link_to_your_image)
-
-#### Karmaşıklık Matrisi
-*Buraya Jupyter Notebook'ta oluşturduğunuz Karmaşıklık Matrisi grafiğini ekleyin.*
-![Confusion Matrix Grafiği](link_to_your_image)
 
 ## Gelecek Geliştirmeler
 
