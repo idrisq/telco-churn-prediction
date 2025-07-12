@@ -1,0 +1,21 @@
+# Resmi Python 3.9 imajını temel al. 'slim' versiyonu daha az yer kaplar.
+FROM python:3.9-slim
+
+# Konteyner içinde çalışacağımız dizini belirle.
+WORKDIR /app
+
+# Önce sadece requirements dosyasını kopyala. Bu, katman önbelleklemesini optimize eder.
+COPY ./requirements.txt /app/requirements.txt
+
+# Bağımlılıkları yükle.
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+
+# Proje dizinindeki diğer her şeyi konteynerin içine kopyala.
+COPY . /app
+
+# Konteynerin dış dünyaya 8000 portundan hizmet vereceğini belirt.
+EXPOSE 8000
+
+# Konteyner çalıştığında çalıştırılacak olan ana komut.
+# Sunucuyu tüm IP'lere açık hale getirir ('0.0.0.0').
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
